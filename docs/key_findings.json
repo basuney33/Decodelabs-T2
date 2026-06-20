@@ -1,0 +1,8 @@
+[
+  "TotalPrice is right-skewed (skew=0.89); the mean ($1,054) overstates the typical order by 28.0% versus the median ($824). The median is the more honest 'typical order value' for this dataset.",
+  "8 orders flagged as TotalPrice outliers by the IQR method (all above $3,330). All reconcile exactly with Quantity x UnitPrice and occur at the dataset's max Quantity (5) with in-range UnitPrice -- this is SIGNAL (genuine high-value bulk orders), not data entry NOISE. No Z-score outliers were found (|z|>3), confirming these are not extreme enough to distort the overall mean materially.",
+  "UnitPrice shows the strongest linear relationship with TotalPrice (r=0.72), followed by Quantity (r=0.62). ItemsInCart correlates moderately with TotalPrice (r=0.39) but only weakly with UnitPrice (r=0.00), suggesting cart size and item price are largely independent customer behaviors.",
+  "'Chair' generates the highest total revenue ($195,620) across 178 orders, though average order values across all 7 products are fairly close ($973-$1,111), indicating revenue differences are driven more by order volume than by per-order price differences between products.",
+  "Revenue is fairly volatile month to month, ranging from $27,752 (2023-04) to $68,069 (2024-06), with no single dominant seasonal pattern visible across the 30-month window covered by the data.",
+  "41.4% of all orders end in 'Cancelled' or 'Returned' status (497 of 1200 orders) -- nearly even with the 231 'Delivered' orders, which is a material fulfillment/quality signal worth flagging to operations."
+]

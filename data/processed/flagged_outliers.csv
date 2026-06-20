@@ -1,0 +1,9 @@
+OrderID,Product,Quantity,UnitPrice,TotalPrice,OrderStatus
+ORD200789,Tablet,5,691.28,3456.4,Delivered
+ORD201122,Monitor,5,678.19,3390.95,Returned
+ORD200632,Laptop,5,678.16,3390.8,Delivered
+ORD200469,Chair,5,676.98,3384.9,Cancelled
+ORD200328,Tablet,5,674.04,3370.2,Cancelled
+ORD200107,Printer,5,670.75,3353.75,Shipped
+ORD200326,Laptop,5,670.48,3352.4,Returned
+ORD201065,Printer,5,666.8,3334.0,Delivered
